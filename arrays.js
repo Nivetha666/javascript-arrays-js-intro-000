@@ -35,6 +35,6 @@ function removeElementFromEndOfArray(array){
   return array.slice(0,array.length-1)
 }
 function removeElementFromBeginningOfArray(array){
-  array.shift(0);
+  array = array.shift(0);
   return array
 }
