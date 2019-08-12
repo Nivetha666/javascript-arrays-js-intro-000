@@ -24,10 +24,10 @@ function accessElementInArray(array,index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift()
+  array.shift()
+  return array,slice(1)
 }
+
 function destructivelyRemoveElementFromBeginningOfArray(array){
 return   array.slice(1);
-
-
 }
